@@ -1,0 +1,45 @@
+body{
+    Color: white;
+    background: rgb(184, 21, 21);
+    margin: 0px;
+    
+}
+
+header{
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(0, 102, 255);
+}
+section{
+    background: red;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto{
+    margin: 5%;
+}
+img{
+    height: 200px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1.0;
+    border: solid 5px white;
+}
+
+.categoria-videos{
+    background: darkred;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.outros-games{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
